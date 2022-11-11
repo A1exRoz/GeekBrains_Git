@@ -14,6 +14,3 @@
 1. это первый элемент
 2. это второй
 3. ну и т.д.
-
-
-[Ссылка на Шпаргалку по Markdown](https://github.com/sandino/Markdown-Cheatsheet "GitHub")
