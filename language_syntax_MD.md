@@ -15,4 +15,5 @@
 2. это второй
 3. ну и т.д.
 
-любой текст для примера
+
+[Ссылка на Шпаргалку по Markdown](https://github.com/sandino/Markdown-Cheatsheet "GitHub")
