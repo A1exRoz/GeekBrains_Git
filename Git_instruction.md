@@ -1,19 +1,19 @@
 ## Инструкция по работе в Git
 
 При первом использовании Git необходимо представиться. Для этого нужно ввести в терминале 2 команды: 
-1. git config --global user.name “Your_name” 
-2. git config --global user.email ваша почта@example.com 
-3. git config --global user.name - проверка, что вы ввели имя 
-4. git config --global user.email проверка, что вы ввели почту 
+1. **git config --global user.name “Your_name”** - задать имя
+2. **git config --global user.email ваша почта@example.com** - задать почту
+3. **git config --global user.name** - проверка, что вы ввели имя 
+4. **git config --global user.email** - проверка, что вы ввели почту 
  
 ## 1. Создаем репозиторий
 Чтобы создать репозиторий, используем команду **"git init"**
 
 ## 2. Сохраняем файлы
-git add filename - добавили файл с именем filename
+**git add filename** - добавили файл с именем filename
 
-## 3. Каждое сохранение нужно зафиксировать комментарием
-Таким образом, Вы указываете, что за информацию Вы фиксируете: git commit -m "text"
+## 3. Каждое сохранение нужно зафиксировать комментарием 
+**git commit -m "text"** - таким образом, Вы указываете, что за информацию Вы фиксируете(сохраняете)
 **-m** - сокращение от message
 
 ## 4. Если не помнишь сохранял и коментил ли
@@ -41,5 +41,3 @@ git status – получить информацию от git о его теку
 **git branch -d branch_name** - удаление ветки  
 **git checkout branch_name** - переход к нужной ветке  
 **git merge branch_name** - слияние веток. Вызывается от туда куда вы хотите добавить изменение.
-
-
